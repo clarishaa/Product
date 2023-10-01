@@ -48,7 +48,6 @@ class ProductController extends BaseController
     }
 
     return redirect()->to('/product');
-    //var_dump($data);
 }
 
 

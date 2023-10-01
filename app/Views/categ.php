@@ -54,8 +54,9 @@
                             <td>
                                 <?= $product['ProductPrice'] ?>
                             </td>
-                            <td><a href="/edit/<?= $product['id'] ?>" class="btn btn-danger mb-3">Edit</a></td>
-                            <td><a href="/delete/<?= $product['id'] ?>" class="btn btn-success mb-3">Delete</a></td>
+                            <td><a href="/edit/<?= $product['id'] ?>" class="btn btn-danger mb-3">Edit</a>
+                            <a href="/delete/<?= $product['id'] ?>" class="btn btn-success mb-3">Delete</a>
+                        </td>
                         </tr>
                     <?php endforeach; ?>
 
